@@ -5,6 +5,6 @@ const cidade = "Assis Chateaubriand";
 const ano = 2026
 
 const idade = (2026 - 2010);
-console.log(`O ${nome} tem ${idade} anos`);
+console.log(`O ${nome} tem ${idade} anos e mora em ${cidade}`);
 
-document.getElementById("saida").textContent = `O ${nome} tem ${idade} anos`;
+document.getElementById("saida").textContent = `O ${nome} tem ${idade} anos e mora em ${cidade}`;
